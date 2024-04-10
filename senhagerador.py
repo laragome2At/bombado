@@ -1,7 +1,7 @@
 import random
 import string
 
-def gerar_senha(comprimento, incluir_maiusculas=True, incluir_minusculas=True, incluir_numeros=True, incluir_caracteres_especiais=True)
+def gerar_senha(comprimento, incluir_maiusculas=True, incluir_minusculas=True, incluir_numeros=True, incluir_caracteres_especiais=True):
     caracteres= ''
 
     if incluir_maiusculas:
@@ -34,5 +34,5 @@ def main():
         continuar = input("Deseja gerar outra senha? (s/n): ").lower()
         if continuar != 's':
             break
-        if __name__ == "__main__"
+if __name__ == "__main__":
         main()
